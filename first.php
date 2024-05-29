@@ -18,11 +18,11 @@
     echo "<br>a is ".$a;
     echo "<br>b is ".$b."<br>";
 
-    //arithmetic operators - +,-,*,/,%
+    //arithmetic operators - +,-,*,/,%,**
 //Assignment operators = +=,-=,*=,/=,%=,**=
 $a +=5;
     //&&,||,! -- Logical operators
-    //<,>,<=,>=,==,!= Relational/conditional 
+    //<,>,<=,>=,==,!= Relational/conditional ,===
    $str = 350;
    $str2 = 35;
    echo "<br>a  > b is ";
@@ -40,6 +40,7 @@ $a +=5;
    echo "<br>Exponent is ".($str**3)."<br>";
    //ternary oper = ?:
    echo ($str>$str2)?"str is maximum":"str2 is maximum";
+   //(condition)?true block:false block
 
 
 
